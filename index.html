@@ -7,32 +7,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bank's Resume Home</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-gray-900 flex justify-between text-white">
+<body class="bg-gray-800 flex justify-between text-lg" style="font-family: 'Benne', serif;">
   <!-- information -->
-  <div class="p-6 border-4 rounded-lg mt-8">
+  <div class="p-6 border-2 border-gray-800 rounded-lg mt-8  bg-gray-700 shadow-2xl text-white max-w-screen-xl mx-auto">
     <!-- profile -->
     <div class="flex">
-      <img src="/picture/630610718-1.jpg" class="h-40 rounded-full p-2 border-2">
+      <img src="./picture/630610718-1.jpg" class="h-40 rounded-full border-2">
       <div>
-        <p class="font-semibold text-xl p-4">
+        <p class="font-semibold text-2xl p-4">
           Khanitin Saenkan
         </p>
-        <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugiat quia hic quidem adipisci ipsa eveniet
-          suscipit non nesciunt consequatur.</p>
+        <p class="p-4 text-lg max-w-screen-md">Hello my name is Khanitin. My nickname is Bank. I am studying at the
+          Chiangmai university. studied engineering computer. I like programming but I like playing games more. I am
+          interested in video game development and AI.
+        </p>
       </div>
     </div>
     <!-- my skill -->
     <div>
-      <p class="font-semibold text-lg">
+      <p class="font-semibold text-2xl mx-auto max-w-max mt-2 mb-2">
         My Skills
       </p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, beatae?</p>
+      <div class="flex">
+        <img src="./picture/programming _picture.png" class="h-32">
+        <div class="p-4">
+          <p class="text-xl font-semibold">
+            Programming
+          </p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, beatae?</p>
+        </div>
+      </div>
     </div>
     <!-- my hobbie -->
     <div>
-      <p class="font-semibold text-lg">
+      <p class="font-semibold text-2xl">
         My Hobbies
       </p>
       <p>
@@ -44,10 +57,11 @@
     </div>
   </div>
   <!-- nav bar -->
-  <div class="flex flex-col space-y-72  p-4 border-4 rounded-lg mt-8">
-    <a href="/index.html">Home</a>
-    <a href="/experience.html">Experience</a>
-    <a href="/contect.html">Contect</a>
+  <div
+    class="flex flex-col space-y-20  p-4 border-2 rounded-lg mt-8 mr-4 ml-4 bg-green-200 shadow-2xl border-black text-red-600 my-auto">
+    <a href="./index.html">Home</a>
+    <a href="./experience.html">Experience</a>
+    <a href="./contect.html">Contect</a>
   </div>
 </body>
 
